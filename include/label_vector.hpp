@@ -1,7 +1,15 @@
 #ifndef LABELVECTOR_H_
 #define LABELVECTOR_H_
 
+#ifdef __SSE2__
 #include <emmintrin.h>
+#else
+#ifdef __aarch64__
+#include "sse2neon.h"
+#else
+#warning SSE2 support is not available. Code will not compile
+#endif
+#endif
 
 #include <vector>
 
@@ -116,7 +124,7 @@ bool LabelVector::search(const label_t target, position_t& pos, position_t searc
     if (search_len < 12)
 	return binarySearch(target, pos, search_len);
     else
-	return simdSearch(target, pos, search_len);
+	return binarySearch(target, pos, search_len);
 }
 
 bool LabelVector::searchGreaterThan(const label_t target, position_t& pos, position_t search_len) const {

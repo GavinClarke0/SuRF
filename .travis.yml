@@ -8,7 +8,7 @@ install:
 - sudo apt-get install cmake
 - sudo apt-get install libgtest.dev
 - cd /usr/src/gtest
-- sudo cmake CMakeLists.txt
+- sudo cmake local.cmake
 - sudo make
 - sudo cp *.a /usr/lib
 - sudo apt-get install lcov
