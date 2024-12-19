@@ -124,7 +124,7 @@ bool LabelVector::search(const label_t target, position_t& pos, position_t searc
     if (search_len < 12)
 	return binarySearch(target, pos, search_len);
     else
-	return binarySearch(target, pos, search_len);
+	return simdSearch(target, pos, search_len);
 }
 
 bool LabelVector::searchGreaterThan(const label_t target, position_t& pos, position_t search_len) const {

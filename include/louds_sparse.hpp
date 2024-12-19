@@ -21,8 +21,8 @@ public:
 				  key_len_(0), is_at_terminator_(false) {
 	    start_level_ = trie_->getStartLevel();
 	    for (level_t level = start_level_; level < trie_->getHeight(); level++) {
-		key_.push_back(0);
-		pos_in_trie_.push_back(0);
+            key_.push_back(0);
+            pos_in_trie_.push_back(0);
 	    }
 	}
 

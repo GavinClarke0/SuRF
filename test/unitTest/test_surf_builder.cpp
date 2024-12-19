@@ -13,7 +13,7 @@ namespace surf {
 
 namespace buildertest {
 
-static const std::string kFilePath = "../../../test/words.txt";
+static const std::string kFilePath = "../words.txt";
 static const int kTestSize = 234369;
 static const int kIntTestSize = 1000000;
 static std::vector<std::string> words;

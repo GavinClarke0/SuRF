@@ -13,7 +13,7 @@ namespace surf {
 
 namespace surftest {
 
-static const std::string kFilePath = "../../../test/words.txt";
+static const std::string kFilePath = "../words.txt";
 static const int kWordTestSize = 234369;
 static const uint64_t kIntTestStart = 10;
 static const int kIntTestBound = 1000001;
