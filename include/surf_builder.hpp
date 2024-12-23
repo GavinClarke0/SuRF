@@ -1,5 +1,5 @@
-#ifndef SURFBUILDER_H_
-#define SURFBUILDER_H_
+#ifndef SURFBUILDER_H
+#define SURFBUILDER_H
 
 #include <assert.h>
 
@@ -425,4 +425,4 @@ bool SuRFBuilder::isTerminator(const level_t level, const position_t pos) const 
 
 } // namespace surf
 
-#endif // SURFBUILDER_H_
+#endif // SURFBUILDER_H

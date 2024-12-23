@@ -1,5 +1,5 @@
-#ifndef HASH_H_
-#define HASH_H_
+#ifndef HASH_H
+#define HASH_H
 
 #include <string>
 
@@ -55,5 +55,5 @@ inline uint32_t suffixHash(const char* key, const int keylen) {
 
 } // namespace surf
 
-#endif // HASH_H_
+#endif // HASH_H
 

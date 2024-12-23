@@ -1,5 +1,5 @@
-#ifndef LOUDSDENSE_H_
-#define LOUDSDENSE_H_
+#ifndef LOUDSDENSE_H
+#define LOUDSDENSE_H
 
 #include <string>
 
@@ -658,4 +658,4 @@ void LoudsDense::Iter::operator --(int) {
 
 } //namespace surf
 
-#endif // LOUDSDENSE_H_
+#endif // LOUDSDENSE_H

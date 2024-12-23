@@ -1,5 +1,5 @@
-#ifndef SURF_H_
-#define SURF_H_
+#ifndef SURF_H
+#define SURF_H
 
 #include <string>
 #include <vector>
@@ -175,7 +175,7 @@ SuRF::Iter SuRF::moveToKeyGreaterThan(const std::string& key, const bool inclusi
 }
 
 SuRF::Iter SuRF::moveToKeyLessThan(const std::string& key, const bool inclusive) const {
-    SuRF::Iter iter = moveToKeyGreaterThan(key, false);
+    SuRF::Iter iter = moveToKeyGreaterThan(key, inclusive);
     if (!iter.isValid()) {
 	iter = moveToLast();
 	return iter;

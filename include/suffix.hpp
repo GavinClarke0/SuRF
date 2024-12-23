@@ -1,5 +1,5 @@
-#ifndef SUFFIX_H_
-#define SUFFIX_H_
+#ifndef SUFFIX_H
+#define SUFFIX_H
 
 #include "bitvector.hpp"
 
@@ -268,4 +268,4 @@ int BitvectorSuffix::compare(const position_t idx,
 
 } // namespace surf
 
-#endif // SUFFIXVECTOR_H_
+#endif // SUFFIX_H

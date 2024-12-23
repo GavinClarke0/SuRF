@@ -1,5 +1,5 @@
-#ifndef RANK_H_
-#define RANK_H_
+#ifndef RANK_H
+#define RANK_H
 
 #include "bitvector.hpp"
 
@@ -119,4 +119,4 @@ private:
 
 } // namespace surf
 
-#endif // RANK_H_
+#endif // RANK_H

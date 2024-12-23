@@ -1,5 +1,5 @@
-#ifndef LABELVECTOR_H_
-#define LABELVECTOR_H_
+#ifndef LABELVECTOR_H
+#define LABELVECTOR_H
 
 #ifdef __SSE2__
 #include <emmintrin.h>
@@ -235,4 +235,4 @@ bool LabelVector::linearSearchGreaterThan(const label_t target, position_t& pos,
 
 } // namespace surf
 
-#endif // LABELVECTOR_H_
+#endif // LABELVECTOR_H
