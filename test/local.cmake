@@ -4,4 +4,4 @@
 # Try to find GTest installed on the system
 find_package(GTest REQUIRED)
 
-include("${CMAKE_SOURCE_DIR}/test/unittest/local.cmake")
+include("${CMAKE_CURRENT_SOURCE_DIR}/test/unittest/local.cmake")

@@ -1,5 +1,5 @@
-#ifndef LABELVECTOR_H_
-#define LABELVECTOR_H_
+#ifndef LABELVECTOR_H
+#define LABELVECTOR_H
 
 #ifdef __SSE2__
 #include <emmintrin.h>
@@ -236,4 +236,4 @@ namespace surf {
 
 } // namespace surf
 
-#endif // LABELVECTOR_H_
+#endif // LABELVECTOR_H

@@ -1,5 +1,5 @@
-#ifndef LOUDSSPARSE_H_
-#define LOUDSSPARSE_H_
+#ifndef LOUDSSPARSE_H
+#define LOUDSSPARSE_H
 
 #include <string>
 
@@ -706,4 +706,4 @@ namespace surf {
 
 } // namespace surf
 
-#endif // LOUDSSPARSE_H_
+#endif // LOUDSSPARSE_H

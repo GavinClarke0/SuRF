@@ -1,5 +1,5 @@
-#ifndef SURF_H_
-#define SURF_H_
+#ifndef SURF_H
+#define SURF_H
 
 #include <string>
 #include <vector>

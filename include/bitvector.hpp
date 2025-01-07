@@ -1,5 +1,5 @@
-#ifndef BITVECTOR_H_
-#define BITVECTOR_H_
+#ifndef BITVECTOR_H
+#define BITVECTOR_H
 
 #include <assert.h>
 
@@ -173,4 +173,4 @@ namespace surf {
 
 } // namespace surf
 
-#endif // BITVECTOR_H_
+#endif // BITVECTOR_H

@@ -1,6 +1,6 @@
 /* -*- Mode: C++; c-basic-offset: 4; indent-tabs-mode: nil -*- */
-#ifndef _FASTRANK_POPCOUNT_H_
-#define _FASTRANK_POPCOUNT_H_
+#ifndef _FASTRANK_POPCOUNT_H
+#define _FASTRANK_POPCOUNT_H
 
 #include <sys/types.h>
 #include <stdio.h>

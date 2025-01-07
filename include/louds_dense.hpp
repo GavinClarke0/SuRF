@@ -1,5 +1,5 @@
-#ifndef LOUDSDENSE_H_
-#define LOUDSDENSE_H_
+#ifndef LOUDSDENSE_H
+#define LOUDSDENSE_H
 
 #include <string>
 
@@ -681,4 +681,4 @@ namespace surf {
 
 } //namespace surf
 
-#endif // LOUDSDENSE_H_
+#endif // LOUDSDENSE_H

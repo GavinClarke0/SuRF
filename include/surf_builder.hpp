@@ -1,5 +1,5 @@
-#ifndef SURFBUILDER_H_
-#define SURFBUILDER_H_
+#ifndef SURFBUILDER_H
+#define SURFBUILDER_H
 
 #include <assert.h>
 
@@ -451,4 +451,4 @@ namespace surf {
 
 } // namespace surf
 
-#endif // SURFBUILDER_H_
+#endif // SURFBUILDER_H

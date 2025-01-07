@@ -1,5 +1,5 @@
-#ifndef SELECT_H_
-#define SELECT_H_
+#ifndef SELECT_H
+#define SELECT_H
 
 #include "bitvector.hpp"
 
@@ -161,4 +161,4 @@ namespace surf {
 
 } // namespace surf
 
-#endif // SELECT_H_
+#endif // SELECT_H

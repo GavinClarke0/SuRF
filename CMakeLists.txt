@@ -84,4 +84,4 @@ add_custom_target(
 # Tests
 # ---------------------------------------------------------------------------
 
-include("${CMAKE_SOURCE_DIR}/test/local.cmake")
+include("${CMAKE_CURRENT_SOURCE_DIR}/test/local.cmake")

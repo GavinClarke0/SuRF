@@ -1,5 +1,5 @@
-#ifndef CONFIG_H_
-#define CONFIG_H_
+#ifndef CONFIG_H
+#define CONFIG_H
 
 #include <stdint.h>
 #include <string.h>
@@ -59,4 +59,4 @@ namespace surf {
 
 } // namespace surf
 
-#endif // CONFIG_H_
+#endif // CONFIG_H
