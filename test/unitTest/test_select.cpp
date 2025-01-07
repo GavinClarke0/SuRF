@@ -6,9 +6,9 @@
 #include <string>
 #include <vector>
 
-#include "../../include/config.hpp"
-#include "../../include/select.hpp"
-#include "../../include/surf_builder.hpp"
+#include "config.hpp"
+#include "select.hpp"
+#include "surf_builder.hpp"
 
 namespace surf {
 

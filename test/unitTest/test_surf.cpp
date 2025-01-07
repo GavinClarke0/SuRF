@@ -13,7 +13,7 @@ namespace surf {
 
     namespace surftest {
 
-        static const std::string kFilePath = "../words.txt";
+        static const std::string kFilePath = "/Users/gavinclarke/CLionProjects/SuRF/test/words.txt";
         static const int kWordTestSize = 234369;
         static const uint64_t kIntTestStart = 10;
         static const int kIntTestBound = 1000001;
@@ -171,8 +171,7 @@ namespace surf {
                 for (int k = 0; k < kNumSuffixLen; k++) {
                     newSuRFWords(kSuffixTypeList[t], kSuffixLenList[k]);
                     testLookupWord(kSuffixTypeList[t]);
-                    //
-                    //delete surf_;
+                    delete surf_;
                 }
             }
         }
